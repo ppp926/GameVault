@@ -73,19 +73,6 @@ GameVault — это веб-приложение для дистрибуции �
 
 
 Email: Gleb.ribyshkin.10@gmail.com
+
 Telegram: @gasheshit
 
-const GameCard = ({ title, price, image, onAddToCart }) => {
-  return (
-    <div className="game-card">
-      <img src={image} alt={title} className="game-cover" />
-      <div className="game-info">
-        <h3>{title}</h3>
-        <span className="price">{price} ₽</span>
-        <button onClick={onAddToCart} className="btn-buy">
-          В корзину
-        </button>
-      </div>
-    </div>
-  );
-};
